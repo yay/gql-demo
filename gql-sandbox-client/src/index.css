@@ -1,0 +1,25 @@
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Selects the root element of the document: <html> in the case of HTML. */
+:root {
+  /* 100% viewport size minus scrollbars */
+  width: calc(100vw - (100vw - 100%));
+  height: calc(100vh - (100vh - 100%));
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}

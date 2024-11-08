@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Dev" type="CompoundRunConfigurationType">
+    <toRun name="1 - dev:server" type="js.build_tools.npm" />
+    <toRun name="2 - codegen:watch:server" type="js.build_tools.npm" />
+    <toRun name="3 - dev:client" type="js.build_tools.npm" />
+    <toRun name="4 - codegen:watch:client" type="js.build_tools.npm" />
+    <method v="2" />
+  </configuration>
+</component>
